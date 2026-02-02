@@ -1,25 +1,22 @@
-// src/firebase.js
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBFgA6JpGqNBrWPfR-lKercjvy5Y6ky7zc",
-  authDomain: "webportofolio-8498b.firebaseapp.com",
-  projectId: "webportofolio-8498b",
-  storageBucket: "webportofolio-8498b.firebasestorage.app",
-  messagingSenderId: "543954266098",
-  appId: "1:543954266098:web:029e84a24273fd15d62d6b"
+ apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+ authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+ projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+ storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET, 
+ messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+ appId: import.meta.env.VITE_FIREBASE_APP_ID,
+ measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
-// Init Firebase
 const app = initializeApp(firebaseConfig);
-
-// Auth
 export const auth = getAuth(app);
+export const db = getFirestore(app);
 const provider = new GoogleAuthProvider();
+
 export const loginWithGoogle = () => signInWithPopup(auth, provider);
 export const logout = () => signOut(auth);
 
-// Firestore
-export const db = getFirestore(app);
