@@ -163,8 +163,8 @@ export const listTools = [
   // },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.jpg";
-import Proyek2 from "/assets/proyek/proyek2.jpg";
+import Proyek1 from "/assets/proyek/GDCC.jpg";
+// import Proyek2 from "/assets/proyek/proyek2.jpg";
 // import Proyek3 from "/assets/proyek/proyek3.jpg";
 // import Proyek4 from "/assets/proyek/proyek4.jpg";
 // import Proyek5 from "/assets/proyek/proyek5.jpg";
@@ -174,23 +174,23 @@ export const listProyek = [
   {
     id: 1,
     image: Proyek1,
-    title: "AIS Detection App",
-    subtitle: "A mobile application powered by Artificial Intelligence...",
-    fullDescription:"A mobile application powered by Artificial Intelligence and Machine Learning, developed to assist in the early detection of Adolescent Idiopathic Scoliosis (AIS). By analyzing patient data and patterns, the app provides predictions that can help doctors and patients take preventive measures. This project demonstrates the role of AI in modern healthcare by improving accuracy, accessibility, and efficiency in medical diagnosis.",
+    title: "Ini Gambar Nya cumn buat test aja",
+    subtitle: "Google Could Developer",
+    fullDescription:"Google Cloud Competition (Kompetisi Google Cloud) di Indonesia umumnya berbentuk program pelatihan berbasis gamifikasi, hackathon, atau tantangan pengembangan aplikasi yang berfokus pada teknologi Cloud, AI/ML, dan Data Analytics. Program-program ini dirancang untuk meningkatkan keterampilan talenta digital Indonesia.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/kyywxv",
     dad: "100",
   },
-  {
-    id: 2,
-    image: Proyek2,
-    title: "IoT Air Quality Monitoring",
-    subtitle: "A smart IoT system designed to measure and analyze air quality...",
-    fullDescription:"A smart IoT system designed to measure and analyze air quality using sensors connected to a mobile application. The app provides real-time updates on air quality levels, empowering users to make healthier lifestyle decisions based on environmental conditions. This project showcases the potential of IoT in addressing environmental and public health issues.",
-    borderColor: "#10B981",
-    gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/kyywxv",
-    dad: "200",
-  }
+  // {
+  //   // id: 2,
+  //   // image: Proyek2,
+  //   // title: "IoT Air Quality Monitoring",
+  //   // subtitle: "A smart IoT system designed to measure and analyze air quality...",
+  //   // fullDescription:"A smart IoT system designed to measure and analyze air quality using sensors connected to a mobile application. The app provides real-time updates on air quality levels, empowering users to make healthier lifestyle decisions based on environmental conditions. This project showcases the potential of IoT in addressing environmental and public health issues.",
+  //   // borderColor: "#10B981",
+  //   // gradient: "linear-gradient(180deg, #10B981, #000)",
+  //   // url: "https://github.com/kyywxv",
+  //   // dad: "200",
+  // }
 ];
