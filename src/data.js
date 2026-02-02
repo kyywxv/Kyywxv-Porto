@@ -163,7 +163,7 @@ export const listTools = [
   // },
 ];
 
-import Proyek1 from "/assets/proyek/GDCC.jpg";
+import Proyek1 from "/assets/proyek/GDCC.png";
 // import Proyek2 from "/assets/proyek/proyek2.jpg";
 // import Proyek3 from "/assets/proyek/proyek3.jpg";
 // import Proyek4 from "/assets/proyek/proyek4.jpg";
