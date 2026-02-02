@@ -163,7 +163,7 @@ export const listTools = [
   // },
 ];
 
-import Proyek1 from "/assets/proyek/GDCC.png";
+import Proyek1 from "/public/assets/proyek/DGCC.jpg";
 // import Proyek2 from "/assets/proyek/proyek2.jpg";
 // import Proyek3 from "/assets/proyek/proyek3.jpg";
 // import Proyek4 from "/assets/proyek/proyek4.jpg";
@@ -181,7 +181,7 @@ export const listProyek = [
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/kyywxv",
     dad: "100",
-  },
+  }
   // {
   //   // id: 2,
   //   // image: Proyek2,
