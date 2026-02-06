@@ -89,7 +89,7 @@ function App() {
             />
             <div className="flex items-center sm:gap-4 gap-2">
               <a 
-                href="/assets/NewCV_Ikyy.pdf" 
+                href="/assets/CV_Ikyy.pdf" 
                 download="CV_Muhammad_Rizki.pdf"
                 className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
               >
